@@ -1,0 +1,16 @@
+{
+    "name": "I2.Examples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1e47a3e4d696b496ea6e33cdf6acbcbe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

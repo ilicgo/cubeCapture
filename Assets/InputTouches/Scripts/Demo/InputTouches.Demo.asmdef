@@ -1,0 +1,16 @@
+{
+    "name": "InputTouches.Demo",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b97435a2c1cf243bf840537cc02db39d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

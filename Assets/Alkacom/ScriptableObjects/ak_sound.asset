@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac319ab2cace4529993cdd4e86e28c7c, type: 3}
+  m_Name: ak_sound
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CloseBasket
+    clip: {fileID: 8300000, guid: 8363ab887d3354fcdb5a1cc9434e8cea, type: 3}
+    volume: 0.3
+    pitch: 1
+    pitchOverTime:
+      max: 1
+      inc: 0.1
+      resetTimeSec: 1
+    pitchRandom: 0.1
+  - name: InBasket
+    clip: {fileID: 8300000, guid: 6acffdba116994104ac2c6a21f76364b, type: 3}
+    volume: 0.2
+    pitch: 1
+    pitchOverTime:
+      max: 1
+      inc: 0.1
+      resetTimeSec: 2
+    pitchRandom: 0.2
+  - name: HeadCollision
+    clip: {fileID: 8300000, guid: ed521c818bda2423cbd7e8db21fd9480, type: 3}
+    volume: 0.2
+    pitch: 1.6
+    pitchOverTime:
+      max: 1
+      inc: 0.1
+      resetTimeSec: 1
+    pitchRandom: 0.3
+  - name: HeadObstacleCollision
+    clip: {fileID: 8300000, guid: 642ca7713c77b4297a27663806433b1b, type: 3}
+    volume: 0.2
+    pitch: 0.5
+    pitchOverTime:
+      max: 0
+      inc: 0
+      resetTimeSec: 0
+    pitchRandom: 0.3
+  - name: Win
+    clip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+    volume: 1
+    pitch: 1
+    pitchOverTime:
+      max: 0
+      inc: 0
+      resetTimeSec: 0
+    pitchRandom: 0.1
+  - name: Lose
+    clip: {fileID: 8300000, guid: a0ca8964c08d54c5dbebf245bdc474ca, type: 3}
+    volume: 1
+    pitch: 1
+    pitchOverTime:
+      max: 0
+      inc: 0
+      resetTimeSec: 0
+    pitchRandom: 0.1
+  - name: Wipe
+    clip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+    volume: 0.2
+    pitch: 0.5
+    pitchOverTime:
+      max: 0
+      inc: 0
+      resetTimeSec: 0
+    pitchRandom: 0.1
+  - name: Multiply
+    clip: {fileID: 8300000, guid: 0f60479363174409e80c7e0a4ad887f3, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    pitchOverTime:
+      max: 0
+      inc: 0
+      resetTimeSec: 0
+    pitchRandom: 0.1

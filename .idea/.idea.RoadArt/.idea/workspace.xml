@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c33d833-968f-4e7a-8fc2-7ae2d119e6e0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoadArt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoadArt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Alkacom/Sound/paintRoller.aup3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Alkacom/Sound/paintRoller.aup3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Alkacom/Sound/paintRoller.aup3-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Alkacom/Sound/paintRoller.aup3-wal.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ecb9615d731c49db957debfa9ea6e2be3000/18/d04bff13/ScreenCapture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/3f/84d48172/ColorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alkacom/Scripts/Paint/PaintState/PaintState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alkacom/Scripts/Vibration/VibrationOnMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/ff/b2956808/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1e5ae362b59542e793786c04ff956b9624600/c6/5f12fb60/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/1d/7f42a46a/GL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/8f/d10c4283/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37609d1fc2d04496895227262e1b2fe0110400/33/bcbdca2f/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alkacom/Scripts/SceneContext/GameInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alkacom/Scripts/Interaction/VirtualJoystick/VirtualJoystickObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/26/24ebf98b/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8481da9d1e6d49e49d69b3dfd8f5b38326600/86/b10d40f6/IGrouping`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/22/ada4bc4d/RenderTexture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alkacom/Scripts/Interaction/VirtualJoystick/VirtualJoyStickRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CW/PaintIn3D/Examples/InGame/Scripts/P3dGenerateMaskColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/f8/ea667979/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/05/d543d84a/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Alkacom/Scripts/Interaction/VirtualJoystick/IVirtualJoystickObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f80cc8ed17984a8dbccc98abec41a29e157200/c9/3239fa57/Texture.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26bXAFlg0y9zYFOD8lgzSkMiOJu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.45500848" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c33d833-968f-4e7a-8fc2-7ae2d119e6e0" name="Changes" comment="" />
+      <created>1647693114982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647693114982</updated>
+      <workItem from="1647693121843" duration="8912000" />
+      <workItem from="1647765628463" duration="11404000" />
+      <workItem from="1647864633144" duration="135000" />
+      <workItem from="1647864813174" duration="368000" />
+      <workItem from="1647865202897" duration="16000" />
+      <workItem from="1647865237124" duration="73000" />
+      <workItem from="1647865503237" duration="217000" />
+      <workItem from="1647865737609" duration="7970000" />
+      <workItem from="1647877060350" duration="22770000" />
+      <workItem from="1647974069194" duration="42844000" />
+      <workItem from="1648313810608" duration="58497000" />
+      <workItem from="1648715387212" duration="1696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs" initialLine="41" containingFunctionPresentation="method 'Refresh'">
+            <startOffsets>
+              <option value="1023" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1445" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs</url>
+          <line>51</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs" initialLine="53" containingFunctionPresentation="method 'Refresh'">
+            <startOffsets>
+              <option value="1485" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1534" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs</url>
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs" initialLine="60" containingFunctionPresentation="method 'Consolidate'">
+            <startOffsets>
+              <option value="1730" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1769" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs</url>
+          <line>76</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/Editor/PaintDBDataEditor.cs" initialLine="78" containingFunctionPresentation="method 'Consolidate'">
+            <startOffsets>
+              <option value="2306" />
+              <option value="2333" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2354" />
+              <option value="2342" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/CW/PaintIn3D/Extras/Scripts/P3dChannelCounterFill.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Plugins/CW/PaintIn3D/Extras/Scripts/P3dChannelCounterFill.cs" initialLine="41" containingFunctionPresentation="method 'Update'">
+            <startOffsets>
+              <option value="1526" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1583" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/../../sdk/AlkacomSDK/Scripts/Runtime/Sdk/Tutorial/ArrowTutorial/ArrowState.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/../../sdk/AlkacomSDK/Scripts/Runtime/Sdk/Tutorial/ArrowTutorial/ArrowState.cs" initialLine="54" containingFunctionPresentation="method 'SetTargetArrow'">
+            <startOffsets>
+              <option value="1675" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1703" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/../../sdk/AlkacomSDK/Scripts/Runtime/Sdk/Tutorial/ArrowTutorial/ArrowState.cs</url>
+          <line>45</line>
+          <properties documentPath="$PROJECT_DIR$/../../sdk/AlkacomSDK/Scripts/Runtime/Sdk/Tutorial/ArrowTutorial/ArrowState.cs" initialLine="45" containingFunctionPresentation="method 'SetLookArrow'">
+            <startOffsets>
+              <option value="1385" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1407" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/Scripts/TutorialController.cs</url>
+          <line>80</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/Scripts/TutorialController.cs" initialLine="74" containingFunctionPresentation="method 'IsFull'">
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs" initialLine="12" containingFunctionPresentation="method 'SendProgression'">
+            <startOffsets>
+              <option value="364" />
+            </startOffsets>
+            <endOffsets>
+              <option value="397" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs</url>
+          <line>15</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs" initialLine="15" containingFunctionPresentation="method 'SendProgression'">
+            <startOffsets>
+              <option value="489" />
+            </startOffsets>
+            <endOffsets>
+              <option value="536" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs" initialLine="18" containingFunctionPresentation="method 'SendProgression'">
+            <startOffsets>
+              <option value="629" />
+            </startOffsets>
+            <endOffsets>
+              <option value="677" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs" initialLine="29" containingFunctionPresentation="method 'SendProgression'">
+            <startOffsets>
+              <option value="947" />
+            </startOffsets>
+            <endOffsets>
+              <option value="980" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs" initialLine="32" containingFunctionPresentation="method 'SendProgression'">
+            <startOffsets>
+              <option value="1072" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1115" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Alkacom/VendorIntegration/Analytics/VoodooTinySauceAnalytics.cs" initialLine="35" containingFunctionPresentation="method 'SendProgression'">
+            <startOffsets>
+              <option value="1208" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1252" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
