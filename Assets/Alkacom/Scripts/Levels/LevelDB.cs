@@ -11,13 +11,10 @@ namespace Alkacom.Game
 
         public LevelDB(LevelList levelsList)
         {
-           
             _levelsList = levelsList;
-            
         }
 
         public Level Get(int levelIndex) => _levelsList.Get(levelIndex);
-
-
+        
     }
 }

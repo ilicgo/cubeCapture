@@ -47,10 +47,11 @@ namespace Alkacom.Scripts
             var e2 = SoundEnumList.Lose;
             Container.BindInstance(cam);
             Container.BindInstance(settings);
+            BindInput();
             BindRegisterSelf();
             BindGameObjectToGameObjectFactory();
             BindPool();
-            
+            BindShapeDB();            
             BindGameStatusSimpleState();
           
             BindDocumentDB();
@@ -69,6 +70,12 @@ namespace Alkacom.Scripts
             BindDebugConsole();
 
             CreateControllers();
+        }
+
+        private void BindShapeDB()
+        {
+            var instance = new ShapeDB(settings.shapeDbPrefab, new PrefabToComponentFactory<IShapeRenderer>(Container));
+            Container.Bind<IShapeDB>().FromInstance(instance).AsSingle();
         }
 
         private void BindPool()
@@ -106,11 +113,21 @@ namespace Alkacom.Scripts
         private void CreateControllers()
         {
             
+            var InputController = Container.Instantiate<InputController>();
             var levelController = Container.Instantiate<LevelController>();
             var GoCellPlacementController = Container.Instantiate<GoCellPlacementController>();
+            
         }
 
-        
+        private void BindInput()
+        {
+           
+            var inputSimple = new InputSimpleTouchToObservable();
+            Container.Bind<IInputSimpleTouchToObservable>().FromInstance(inputSimple);
+            sClearList.Add(inputSimple);
+           
+        }
+
         
         private void BindGameStatus()
         {

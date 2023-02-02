@@ -17,3 +17,4 @@ MonoBehaviour:
   cellPool:
     prefab: {fileID: 2838273302693185369, guid: 762a4188710c44142adb351e80826e81, type: 3}
     size: 300
+  shapeDbPrefab: {fileID: 7944068874912993025, guid: 19b03e14167c24bb48fb77456344498b, type: 3}

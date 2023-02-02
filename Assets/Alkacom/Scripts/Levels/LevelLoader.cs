@@ -18,10 +18,12 @@ namespace Alkacom.Scripts
         private GameObject _loadedLevel;
         private readonly IRegisterSelf<GoGrid> _rsGoGrid;
         private readonly IRegisterSelf<IGrid> _rsGridGeneric;
+        private readonly IShapeDB _shapeDb;
 
 
-        public LevelLoader(IRegisterSelf<GoGrid> rsGoGrid,IRegisterSelf<IGrid> rsGridGeneric, ISimpleState<GameStatusState> gameStatusSimpleState, ILevelState levelState, ILevelDB<Level> db, IFactory<GameObject, GameObject> factory)
+        public LevelLoader(IShapeDB shapeDB, IRegisterSelf<GoGrid> rsGoGrid,IRegisterSelf<IGrid> rsGridGeneric, ISimpleState<GameStatusState> gameStatusSimpleState, ILevelState levelState, ILevelDB<Level> db, IFactory<GameObject, GameObject> factory)
         {
+            _shapeDb = shapeDB;
             _rsGridGeneric = rsGridGeneric;
             _rsGoGrid = rsGoGrid;
             _gameStatusSimpleState = gameStatusSimpleState;
@@ -49,6 +51,8 @@ namespace Alkacom.Scripts
             var prefab = level.GetPrefab(number);
             _loadedLevel = _facotry.Create(prefab);
 
+            _shapeDb.Build(level.GetShapeDBDefinition(number));
+            
             var grid = new GoGrid(10, 10, GoCell.Empty);
             
             grid.Put(new Vector2Int(5,5), GoCell.Diamond);

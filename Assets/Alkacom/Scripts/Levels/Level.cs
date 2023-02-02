@@ -5,15 +5,12 @@ using Random = System.Random;
 
 namespace Alkacom.Scripts
 {
-    [CreateAssetMenu(menuName = "Alkacom/Game/Level")]
-    public sealed class Level : ScriptableObject
-    {
-       
-        [SerializeField] private GameObject prefab;
-
-        
-        public GameObject GetPrefab(int number) => prefab;
-
     
+    public abstract class Level : ScriptableObject
+    {
+        public abstract GameObject GetPrefab(int number);
+        public abstract ShapeDBDefinition GetShapeDBDefinition(int number);
     }
 }
+
+

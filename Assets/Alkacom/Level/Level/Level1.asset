@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8487f7e94ac849339eeab826f979d8af, type: 3}
-  m_Name: index
+  m_Script: {fileID: 11500000, guid: c90096897f634327ad7214b161d7d722, type: 3}
+  m_Name: Level1
   m_EditorClassIdentifier: 
-  levels:
-  - {fileID: 11400000, guid: a31e15eeb9c694b36892fe4ebfdf467d, type: 2}
-  levelsLoop: []
+  prefab: {fileID: 8724356762246636967, guid: fdd7dff954823469aab5a9b7c5767dc8, type: 3}
+  shapeDB: {fileID: 11400000, guid: c568b547e784249cf9218a3203378baa, type: 2}

@@ -12,6 +12,7 @@ namespace Alkacom.Scripts
         public bool isAdMode;
 
         public PoolSettings cellPool;
+        public GameObject shapeDbPrefab;
     }
 
     [Serializable]
