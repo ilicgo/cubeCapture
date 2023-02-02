@@ -1,8 +1,5 @@
 using System;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.Serialization;
 using Zenject;
 
 namespace Alkacom.Scripts
@@ -13,8 +10,15 @@ namespace Alkacom.Scripts
         public LevelList levelList;
 
         public bool isAdMode;
-       
+
+        public PoolSettings cellPool;
     }
 
+    [Serializable]
+    public struct PoolSettings
+    {
+        public GameObject prefab;
+        public int size;
+    }
 
 }

@@ -47,9 +47,10 @@ namespace Alkacom.Scripts
             var e2 = SoundEnumList.Lose;
             Container.BindInstance(cam);
             Container.BindInstance(settings);
-            
+            BindRegisterSelf();
             BindGameObjectToGameObjectFactory();
-          
+            BindPool();
+            
             BindGameStatusSimpleState();
           
             BindDocumentDB();
@@ -70,6 +71,24 @@ namespace Alkacom.Scripts
             CreateControllers();
         }
 
+        private void BindPool()
+        {
+            var cellPool = new BasicPool<IGoCellRenderer>(settings.cellPool.size,
+                new PrefabToComponentFactory<IGoCellRenderer>(Container));
+
+            Container.Bind<IBasicPool<IGoCellRenderer>>().FromInstance(cellPool).AsSingle();
+            
+            cellPool.Instantiate(settings.cellPool.prefab);
+        }
+
+        private void BindRegisterSelf()
+        {
+            RegisterSelf<GoGrid>.Bind(Container);
+            RegisterSelf<IGrid>.Bind(Container);
+         
+         
+        }
+
 
         private void BindLevel()
         {
@@ -88,6 +107,7 @@ namespace Alkacom.Scripts
         {
             
             var levelController = Container.Instantiate<LevelController>();
+            var GoCellPlacementController = Container.Instantiate<GoCellPlacementController>();
         }
 
         

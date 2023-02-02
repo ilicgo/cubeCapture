@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelList: {fileID: 11400000, guid: 24fd8a9e1a169418d9c82ade0f9c842f, type: 2}
   isAdMode: 0
+  cellPool:
+    prefab: {fileID: 2838273302693185369, guid: 762a4188710c44142adb351e80826e81, type: 3}
+    size: 300

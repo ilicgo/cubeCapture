@@ -2,6 +2,7 @@ using System.Linq;
 using Alkacom.Sdk.Common.Levels;
 using Alkacom.Sdk.Common.States;
 using Alkacom.Sdk.State;
+using Alkacom.Sdk.Zenject;
 using UniRx;
 using UnityEngine;
 using Zenject;
@@ -15,13 +16,14 @@ namespace Alkacom.Scripts
         private GameObject _instance;
         private readonly ISimpleState<GameStatusState> _gameStatusSimpleState;
         private GameObject _loadedLevel;
+        private readonly IRegisterSelf<GoGrid> _rsGoGrid;
+        private readonly IRegisterSelf<IGrid> _rsGridGeneric;
 
 
-
-        public LevelLoader(ISimpleState<GameStatusState> gameStatusSimpleState, ILevelState levelState, ILevelDB<Level> db, IFactory<GameObject, GameObject> factory)
+        public LevelLoader(IRegisterSelf<GoGrid> rsGoGrid,IRegisterSelf<IGrid> rsGridGeneric, ISimpleState<GameStatusState> gameStatusSimpleState, ILevelState levelState, ILevelDB<Level> db, IFactory<GameObject, GameObject> factory)
         {
-
-         
+            _rsGridGeneric = rsGridGeneric;
+            _rsGoGrid = rsGoGrid;
             _gameStatusSimpleState = gameStatusSimpleState;
             _facotry = factory;
             _db = db;
@@ -46,8 +48,23 @@ namespace Alkacom.Scripts
             var level = _db.Get(number);
             var prefab = level.GetPrefab(number);
             _loadedLevel = _facotry.Create(prefab);
+
+            var grid = new GoGrid(10, 10, GoCell.Empty);
             
-           
+            grid.Put(new Vector2Int(5,5), GoCell.Diamond);
+            
+            grid.Put(new Vector2Int(5,6), GoCell.Cube);
+            grid.Put(new Vector2Int(4,6), GoCell.Cube);
+            grid.Put(new Vector2Int(6,6), GoCell.Cube);
+            
+            grid.Put(new Vector2Int(5,4), GoCell.Cube);
+            grid.Put(new Vector2Int(4,4), GoCell.Cube);
+            grid.Put(new Vector2Int(6,4), GoCell.Cube);
+            grid.Put(new Vector2Int(4,5), GoCell.Cube);
+     
+            
+            _rsGoGrid.Register(grid);
+            _rsGridGeneric.Register(grid);
         }
 
         private void DestroyCurrentLevel()

@@ -1,6 +1,4 @@
-using System;
 using Cinemachine;
-using UnityEditor.XR.LegacyInputHelpers;
 using UnityEngine;
 
 namespace Alkacom.Scripts
