@@ -9,8 +9,9 @@ namespace Alkacom.Scripts
     {
         private readonly Camera _camera;
         private IPickable _pickable;
+       
 
-        public InputController(ISimpleState<GameStatusState> ssGameStatus, IInputSimpleTouchToObservable input, Camera mainCamera)
+        public InputController( ISimpleState<GameStatusState> ssGameStatus, IInputSimpleTouchToObservable input, Camera mainCamera)
         {
             
             _camera = mainCamera;
@@ -47,6 +48,7 @@ namespace Alkacom.Scripts
         
         void OnTouchEnd(AkTouchState state)
         {
+          
             _pickable?.UnPick();
             _pickable = null;
         }

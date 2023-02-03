@@ -7,5 +7,6 @@ namespace Alkacom.Scripts
         bool IsFree { get;  }
         Vector3 Position { get; }
         void TakeOwnership();
+        void LeaveOwnership();
     }
 }

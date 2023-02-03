@@ -49,6 +49,7 @@ namespace Alkacom.Scripts
             Container.BindInstance(settings);
             BindInput();
             BindRegisterSelf();
+            CreatePlaceOnGridController();
             BindGameObjectToGameObjectFactory();
             BindPool();
             BindShapeDB();            
@@ -109,13 +110,25 @@ namespace Alkacom.Scripts
             var instance = new SimpleState<GameStatusState>(GameStatusState.Waiting);
             Container.Bind<ISimpleState<GameStatusState>>().FromInstance(instance).AsSingle();
             
+            var instanceShapeMessge = new SimpleState<ShapePlacementMessage>(ShapePlacementMessage.None);
+            Container.Bind<ISimpleState<ShapePlacementMessage>>().FromInstance(instanceShapeMessge).AsSingle();
+            
+        }
+
+        private void CreatePlaceOnGridController()
+        {
+            Container.Bind<IPutOnGridController>().To<PutOnGridController>().AsSingle().NonLazy();
         }
         private void CreateControllers()
         {
             
+            
             var InputController = Container.Instantiate<InputController>();
             var levelController = Container.Instantiate<LevelController>();
             var GoCellPlacementController = Container.Instantiate<GoCellPlacementController>();
+            var SurroundedDestructionController = Container.Instantiate<SurroundedDestructionController>();
+            var CheckWinConditionController = Container.Instantiate<CheckWinConditionController>();
+            var CheckFailConditionController = Container.Instantiate<CheckFailConditionController>();
             
         }
 

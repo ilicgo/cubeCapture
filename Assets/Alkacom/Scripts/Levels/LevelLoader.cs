@@ -53,18 +53,12 @@ namespace Alkacom.Scripts
 
             _shapeDb.Build(level.GetShapeDBDefinition(number));
             
-            var grid = new GoGrid(10, 10, GoCell.Empty);
+            var grid = new GoGrid(6, 6, GoCell.Empty);
             
-            grid.Put(new Vector2Int(5,5), GoCell.Diamond);
+            grid.Put(new Vector2Int(4,4), GoCell.Diamond);
+            grid.Put(new Vector2Int(2,2), GoCell.Diamond);
             
-            grid.Put(new Vector2Int(5,6), GoCell.Cube);
-            grid.Put(new Vector2Int(4,6), GoCell.Cube);
-            grid.Put(new Vector2Int(6,6), GoCell.Cube);
-            
-            grid.Put(new Vector2Int(5,4), GoCell.Cube);
-            grid.Put(new Vector2Int(4,4), GoCell.Cube);
-            grid.Put(new Vector2Int(6,4), GoCell.Cube);
-            grid.Put(new Vector2Int(4,5), GoCell.Cube);
+           
      
             
             _rsGoGrid.Register(grid);

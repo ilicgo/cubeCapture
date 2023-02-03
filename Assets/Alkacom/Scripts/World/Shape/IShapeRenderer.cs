@@ -9,5 +9,6 @@ namespace Alkacom.Scripts
         bool IsFree { get;  }
       
         void Place(IPositionTr position);
+        Shape GetShape();
     }
 }

@@ -12,10 +12,13 @@ namespace Alkacom.Scripts
         private SimpleMergeGameObject _goMerge;
         private Transform _tr;
         private IPositionTr _positionTr;
-
+        private Shape _shape;
+        private IPutOnGridController _putOnGridController;
+        
         [Inject]
-        public void Construct(IFactory<GameObject, GameObject> factory)
+        public void Construct(IFactory<GameObject, GameObject> factory, IPutOnGridController putOnGridController)
         {
+            _putOnGridController = putOnGridController;
             _tr = GetComponent<Transform>();
             _factory = factory;
             _goMerge = new SimpleMergeGameObject("Shape", GetComponent<Transform>());
@@ -32,13 +35,13 @@ namespace Alkacom.Scripts
         }
 
         public void Build(ShapeDefinition def)
-        {
-            var shape = def.GetShape();
+        { 
+            _shape = def.GetShape();
             
             
-            for(int ix = 0, ixMax = shape.width; ix <ixMax; ix++)
-            for (int iy = 0, iyMax = shape.height; iy < iyMax; iy++)
-                CreateChunk(_goMerge, ix,iy,shape.Get(ix, iy) == 1);
+            for(int ix = 0, ixMax = _shape.width; ix <ixMax; ix++)
+            for (int iy = 0, iyMax = _shape.height; iy < iyMax; iy++)
+                CreateChunk(_goMerge, ix,iy,_shape.Get(ix, iy) == 1);
             
             _goMerge.Merge();
 
@@ -81,6 +84,8 @@ namespace Alkacom.Scripts
             gameObject.SetActive(true);
         }
 
+        public Shape GetShape() => _shape;
+
         private void OnDestroy()
         {
             _goMerge.Destroy();
@@ -93,13 +98,32 @@ namespace Alkacom.Scripts
 
         public void UnPick()
         {
+            
+            if (Physics.Raycast(_tr.position, Vector3.down, out var hit, float.MaxValue, LayerMask.Ground))
+            {
+                if (_putOnGridController.TryToPlace(_shape, hit.point))
+                {
+                    _positionTr.LeaveOwnership();
+                    IsFree = true;
+                    gameObject.SetActive(false);
+                    return;
+                }
+            }
+            
             _tr.localScale = Vector3.one * 0.75f;
             _tr.position = _positionTr.Position;
         }
+
+      
 
         public void Move(Vector3 hitInfoPoint)
         {
             _tr.position = hitInfoPoint + Vector3.up;
         }
+
+      
+
+       
+       
     }
 }

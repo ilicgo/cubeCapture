@@ -1,5 +1,4 @@
 using System;
-using Alkacom.Sdk.Zenject;
 using UniRx;
 using UnityEngine;
 using Zenject;
@@ -17,7 +16,7 @@ namespace Alkacom.Scripts
             _shapeDB = shapeDB;
             
             _positions = GetComponentsInChildren<IPositionTr>();
-            Observable.Timer(TimeSpan.FromSeconds(1.5f)).TakeUntilDestroy(this).Subscribe(RxUpdate);
+            Observable.Interval(TimeSpan.FromSeconds(1.5f)).TakeUntilDestroy(this).Subscribe(RxUpdate);
 
         }
 

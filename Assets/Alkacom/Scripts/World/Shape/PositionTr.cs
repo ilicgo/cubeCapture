@@ -19,5 +19,10 @@ namespace Alkacom.Scripts
         {
             IsFree = false;
         }
+
+        public void LeaveOwnership()
+        {
+            IsFree = true;
+        }
     }
 }

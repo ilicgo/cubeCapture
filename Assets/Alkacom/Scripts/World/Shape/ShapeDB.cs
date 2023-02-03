@@ -57,5 +57,9 @@ namespace Alkacom.Scripts
            
             return Option<IShapeRenderer>.Some(results[0]);
         }
+
+        public IShapeRenderer[] GetActiveShapes() => _list.Where(_ => !_.IsFree).ToArray();
+            
+        
     }
 }
